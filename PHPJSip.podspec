@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "PHPJSip"
-  s.version      = "0.1.0"
+  s.version      = "0.1.1"
   s.summary      = "Open Source SIP, Media and NAT Traversal Library."
   s.homepage     = "https://github.com/xphaijj/pjsip"
   s.author       = 'www.pjsip.org'
