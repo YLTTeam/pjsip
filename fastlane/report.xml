@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="fastlane.lanes">
+    
+    
+    
+      
+      <testcase classname="fastlane.lanes" name="0: import_from_git" time="1.816889">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="1: git_pull" time="2.231809">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="2: ensure_git_branch" time="0.011597">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="3: version_bump_podspec" time="0.005584">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="4: git_add" time="0.014473">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="5: git_commit" time="0.023731">
+        
+          <failure message="/Users/qtec/.rvm/gems/ruby-2.4.0@global/gems/fastlane-2.62.1/fastlane/lib/fastlane/actions/actions_helper.rb:48:in `execute_action'&#10;/Users/qtec/.rvm/gems/ruby-2.4.0@global/gems/fastlane-2.62.1/fastlane/lib/fastlane/runner.rb:231:in `block in execute_action'&#10;/Users/qtec/.rvm/gems/ruby-2.4.0@global/gems/fastlane-2.62.1/fastlane/lib/fastlane/runner.rb:227:in `chdir'&#10;/Users/qtec/.rvm/gems/ruby-2.4.0@global/gems/fastlane-2.62.1/fastlane/lib/fastlane/runner.rb:227:in `execute_action'&#10;/Users/qtec/.rvm/gems/ruby-2.4.0@global/gems/fastlane-2.62.1/fastlane/lib/fastlane/runner.rb:148:in `trigger_action_by_name'&#10;/Users/qtec/.rvm/gems/ruby-2.4.0@global/gems/fastlane-2.62.1/fastlane/lib/fastlane/fast_file.rb:146:in `method_missing'&#10;../../../../../var/folders/ww/8smhj1yd33v159pqwrbc47_40000gp/T/fl_clone20171030-15234-1p4x5yh/fastlane-files/fastlane/Fastfile:14:in `block in parsing_binding'&#10;/Users/qtec/.rvm/gems/ruby-2.4.0@global/gems/fastlane-2.62.1/fastlane/lib/fastlane/lane.rb:33:in `call'&#10;/Users/qtec/.rvm/gems/ruby-2.4.0@global/gems/fastlane-2.62.1/fastlane/lib/fastlane/runner.rb:49:in `block in execute'&#10;/Users/qtec/.rvm/gems/ruby-2.4.0@global/gems/fastlane-2.62.1/fastlane/lib/fastlane/runner.rb:45:in `chdir'&#10;/Users/qtec/.rvm/gems/ruby-2.4.0@global/gems/fastlane-2.62.1/fastlane/lib/fastlane/runner.rb:45:in `execute'&#10;/Users/qtec/.rvm/gems/ruby-2.4.0@global/gems/fastlane-2.62.1/fastlane/lib/fastlane/lane_manager.rb:54:in `cruise_lane'&#10;/Users/qtec/.rvm/gems/ruby-2.4.0@global/gems/fastlane-2.62.1/fastlane/lib/fastlane/command_line_handler.rb:30:in `handle'&#10;/Users/qtec/.rvm/gems/ruby-2.4.0@global/gems/fastlane-2.62.1/fastlane/lib/fastlane/commands_generator.rb:104:in `block (2 levels) in run'&#10;/Users/qtec/.rvm/gems/ruby-2.4.0/gems/commander-fastlane-4.4.5/lib/commander/command.rb:178:in `call'&#10;/Users/qtec/.rvm/gems/ruby-2.4.0/gems/commander-fastlane-4.4.5/lib/commander/command.rb:153:in `run'&#10;/Users/qtec/.rvm/gems/ruby-2.4.0/gems/commander-fastlane-4.4.5/lib/commander/runner.rb:476:in `run_active_command'&#10;/Users/qtec/.rvm/gems/ruby-2.4.0@global/gems/fastlane-2.62.1/fastlane_core/lib/fastlane_core/ui/fastlane_runner.rb:66:in `run!'&#10;/Users/qtec/.rvm/gems/ruby-2.4.0/gems/commander-fastlane-4.4.5/lib/commander/delegates.rb:15:in `run!'&#10;/Users/qtec/.rvm/gems/ruby-2.4.0@global/gems/fastlane-2.62.1/fastlane/lib/fastlane/commands_generator.rb:303:in `run'&#10;/Users/qtec/.rvm/gems/ruby-2.4.0@global/gems/fastlane-2.62.1/fastlane/lib/fastlane/commands_generator.rb:42:in `start'&#10;/Users/qtec/.rvm/gems/ruby-2.4.0@global/gems/fastlane-2.62.1/fastlane/lib/fastlane/cli_tools_distributor.rb:66:in `take_off'&#10;/Users/qtec/.rvm/gems/ruby-2.4.0@global/gems/fastlane-2.62.1/bin/fastlane:20:in `&lt;top (required)&gt;'&#10;/Users/qtec/.rvm/gems/ruby-2.4.0/bin/fastlane:23:in `load'&#10;/Users/qtec/.rvm/gems/ruby-2.4.0/bin/fastlane:23:in `&lt;main&gt;'&#10;/Users/qtec/.rvm/gems/ruby-2.4.0/bin/ruby_executable_hooks:15:in `eval'&#10;/Users/qtec/.rvm/gems/ruby-2.4.0/bin/ruby_executable_hooks:15:in `&lt;main&gt;'&#10;&#10;Exit status of command 'git commit -m release\ 0.0.1 .' was 1 instead of 0.&#10;On branch master&#10;Your branch is up-to-date with 'origin/master'.&#10;nothing to commit, working tree clean&#10;" />
+        
+      </testcase>
+    
+  </testsuite>
+</testsuites>
