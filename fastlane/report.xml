@@ -5,69 +5,64 @@
     
     
       
-      <testcase classname="fastlane.lanes" name="00: import_from_git" time="1.452258">
+      <testcase classname="fastlane.lanes" name="00: import_from_git" time="4.259444">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="01: git_pull" time="2.13914">
+      <testcase classname="fastlane.lanes" name="01: git_pull" time="2.791547">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="02: ensure_git_branch" time="0.012133">
+      <testcase classname="fastlane.lanes" name="02: ensure_git_branch" time="0.010855">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="03: version_bump_podspec" time="0.006126">
+      <testcase classname="fastlane.lanes" name="03: version_bump_podspec" time="0.005718">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="04: git_add" time="0.01602">
+      <testcase classname="fastlane.lanes" name="04: git_add" time="0.015508">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="05: git_commit" time="0.03095">
+      <testcase classname="fastlane.lanes" name="05: git_commit" time="0.029847">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="06: push_to_git_remote" time="5.533358">
+      <testcase classname="fastlane.lanes" name="06: push_to_git_remote" time="6.794487">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="07: git_tag_exists" time="0.014365">
+      <testcase classname="fastlane.lanes" name="07: git_tag_exists" time="0.014847">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="08: remove_git_tag" time="6.479607">
+      <testcase classname="fastlane.lanes" name="08: add_git_tag" time="0.01634">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="09: add_git_tag" time="0.018126">
+      <testcase classname="fastlane.lanes" name="09: push_git_tags" time="5.370086">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="10: push_git_tags" time="5.453008">
+      <testcase classname="fastlane.lanes" name="10: pod_lib_lint" time="6.485055">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="11: pod_lib_lint" time="6.325028">
+      <testcase classname="fastlane.lanes" name="11: pod_push" time="40.127415">
         
-      </testcase>
-    
-      
-      <testcase classname="fastlane.lanes" name="12: pod_push" time="31.033776">
-        
-          <failure message="/Users/qtec/.rvm/gems/ruby-2.4.0@global/gems/fastlane-2.62.1/fastlane/lib/fastlane/actions/actions_helper.rb:48:in `execute_action'&#10;/Users/qtec/.rvm/gems/ruby-2.4.0@global/gems/fastlane-2.62.1/fastlane/lib/fastlane/runner.rb:231:in `block in execute_action'&#10;/Users/qtec/.rvm/gems/ruby-2.4.0@global/gems/fastlane-2.62.1/fastlane/lib/fastlane/runner.rb:227:in `chdir'&#10;/Users/qtec/.rvm/gems/ruby-2.4.0@global/gems/fastlane-2.62.1/fastlane/lib/fastlane/runner.rb:227:in `execute_action'&#10;/Users/qtec/.rvm/gems/ruby-2.4.0@global/gems/fastlane-2.62.1/fastlane/lib/fastlane/runner.rb:148:in `trigger_action_by_name'&#10;/Users/qtec/.rvm/gems/ruby-2.4.0@global/gems/fastlane-2.62.1/fastlane/lib/fastlane/fast_file.rb:146:in `method_missing'&#10;../../../../../var/folders/ww/8smhj1yd33v159pqwrbc47_40000gp/T/fl_clone20171030-24704-20tw3d/fastlane-files/fastlane/Fastfile:28:in `block in parsing_binding'&#10;/Users/qtec/.rvm/gems/ruby-2.4.0@global/gems/fastlane-2.62.1/fastlane/lib/fastlane/lane.rb:33:in `call'&#10;/Users/qtec/.rvm/gems/ruby-2.4.0@global/gems/fastlane-2.62.1/fastlane/lib/fastlane/runner.rb:49:in `block in execute'&#10;/Users/qtec/.rvm/gems/ruby-2.4.0@global/gems/fastlane-2.62.1/fastlane/lib/fastlane/runner.rb:45:in `chdir'&#10;/Users/qtec/.rvm/gems/ruby-2.4.0@global/gems/fastlane-2.62.1/fastlane/lib/fastlane/runner.rb:45:in `execute'&#10;/Users/qtec/.rvm/gems/ruby-2.4.0@global/gems/fastlane-2.62.1/fastlane/lib/fastlane/lane_manager.rb:54:in `cruise_lane'&#10;/Users/qtec/.rvm/gems/ruby-2.4.0@global/gems/fastlane-2.62.1/fastlane/lib/fastlane/command_line_handler.rb:30:in `handle'&#10;/Users/qtec/.rvm/gems/ruby-2.4.0@global/gems/fastlane-2.62.1/fastlane/lib/fastlane/commands_generator.rb:104:in `block (2 levels) in run'&#10;/Users/qtec/.rvm/gems/ruby-2.4.0/gems/commander-fastlane-4.4.5/lib/commander/command.rb:178:in `call'&#10;/Users/qtec/.rvm/gems/ruby-2.4.0/gems/commander-fastlane-4.4.5/lib/commander/command.rb:153:in `run'&#10;/Users/qtec/.rvm/gems/ruby-2.4.0/gems/commander-fastlane-4.4.5/lib/commander/runner.rb:476:in `run_active_command'&#10;/Users/qtec/.rvm/gems/ruby-2.4.0@global/gems/fastlane-2.62.1/fastlane_core/lib/fastlane_core/ui/fastlane_runner.rb:66:in `run!'&#10;/Users/qtec/.rvm/gems/ruby-2.4.0/gems/commander-fastlane-4.4.5/lib/commander/delegates.rb:15:in `run!'&#10;/Users/qtec/.rvm/gems/ruby-2.4.0@global/gems/fastlane-2.62.1/fastlane/lib/fastlane/commands_generator.rb:303:in `run'&#10;/Users/qtec/.rvm/gems/ruby-2.4.0@global/gems/fastlane-2.62.1/fastlane/lib/fastlane/commands_generator.rb:42:in `start'&#10;/Users/qtec/.rvm/gems/ruby-2.4.0@global/gems/fastlane-2.62.1/fastlane/lib/fastlane/cli_tools_distributor.rb:66:in `take_off'&#10;/Users/qtec/.rvm/gems/ruby-2.4.0@global/gems/fastlane-2.62.1/bin/fastlane:20:in `&lt;top (required)&gt;'&#10;/Users/qtec/.rvm/gems/ruby-2.4.0/bin/fastlane:23:in `load'&#10;/Users/qtec/.rvm/gems/ruby-2.4.0/bin/fastlane:23:in `&lt;main&gt;'&#10;/Users/qtec/.rvm/gems/ruby-2.4.0/bin/ruby_executable_hooks:15:in `eval'&#10;/Users/qtec/.rvm/gems/ruby-2.4.0/bin/ruby_executable_hooks:15:in `&lt;main&gt;'&#10;&#10;Exit status of command 'pod trunk push 'PHPJSip.podspec' --allow-warnings --use-libraries' was 1 instead of 0.&#10;Updating spec repo `master`&#10;Validating podspec&#10; -&gt; PHPJSip -&gt; PHPJSip (0.1.0)&#10;    - ERROR | [iOS] unknown: Encountered an unknown error ([!] /usr/bin/git clone https://github.com/xphaijj/pjsip.git /var/folders/ww/8smhj1yd33v159pqwrbc47_40000gp/T/d20171030-25248-1i8avct --template= --single-branch --depth 1 --branch 0.1.0&#10;&#10;Cloning into '/var/folders/ww/8smhj1yd33v159pqwrbc47_40000gp/T/d20171030-25248-1i8avct'...&#10;warning: Could not find remote branch 0.1.0 to clone.&#10;fatal: Remote branch 0.1.0 not found in upstream origin&#10;) during validation.&#10;&#10;[!] The spec did not pass validation, due to 1 error.&#10;" />
+          <failure message="/Users/qtec/.rvm/gems/ruby-2.4.0@global/gems/fastlane-2.62.1/fastlane/lib/fastlane/actions/actions_helper.rb:48:in `execute_action'&#10;/Users/qtec/.rvm/gems/ruby-2.4.0@global/gems/fastlane-2.62.1/fastlane/lib/fastlane/runner.rb:231:in `block in execute_action'&#10;/Users/qtec/.rvm/gems/ruby-2.4.0@global/gems/fastlane-2.62.1/fastlane/lib/fastlane/runner.rb:227:in `chdir'&#10;/Users/qtec/.rvm/gems/ruby-2.4.0@global/gems/fastlane-2.62.1/fastlane/lib/fastlane/runner.rb:227:in `execute_action'&#10;/Users/qtec/.rvm/gems/ruby-2.4.0@global/gems/fastlane-2.62.1/fastlane/lib/fastlane/runner.rb:148:in `trigger_action_by_name'&#10;/Users/qtec/.rvm/gems/ruby-2.4.0@global/gems/fastlane-2.62.1/fastlane/lib/fastlane/fast_file.rb:146:in `method_missing'&#10;../../../../../var/folders/ww/8smhj1yd33v159pqwrbc47_40000gp/T/fl_clone20171030-32539-3m5um4/fastlane-files/fastlane/Fastfile:28:in `block in parsing_binding'&#10;/Users/qtec/.rvm/gems/ruby-2.4.0@global/gems/fastlane-2.62.1/fastlane/lib/fastlane/lane.rb:33:in `call'&#10;/Users/qtec/.rvm/gems/ruby-2.4.0@global/gems/fastlane-2.62.1/fastlane/lib/fastlane/runner.rb:49:in `block in execute'&#10;/Users/qtec/.rvm/gems/ruby-2.4.0@global/gems/fastlane-2.62.1/fastlane/lib/fastlane/runner.rb:45:in `chdir'&#10;/Users/qtec/.rvm/gems/ruby-2.4.0@global/gems/fastlane-2.62.1/fastlane/lib/fastlane/runner.rb:45:in `execute'&#10;/Users/qtec/.rvm/gems/ruby-2.4.0@global/gems/fastlane-2.62.1/fastlane/lib/fastlane/lane_manager.rb:54:in `cruise_lane'&#10;/Users/qtec/.rvm/gems/ruby-2.4.0@global/gems/fastlane-2.62.1/fastlane/lib/fastlane/command_line_handler.rb:30:in `handle'&#10;/Users/qtec/.rvm/gems/ruby-2.4.0@global/gems/fastlane-2.62.1/fastlane/lib/fastlane/commands_generator.rb:104:in `block (2 levels) in run'&#10;/Users/qtec/.rvm/gems/ruby-2.4.0/gems/commander-fastlane-4.4.5/lib/commander/command.rb:178:in `call'&#10;/Users/qtec/.rvm/gems/ruby-2.4.0/gems/commander-fastlane-4.4.5/lib/commander/command.rb:153:in `run'&#10;/Users/qtec/.rvm/gems/ruby-2.4.0/gems/commander-fastlane-4.4.5/lib/commander/runner.rb:476:in `run_active_command'&#10;/Users/qtec/.rvm/gems/ruby-2.4.0@global/gems/fastlane-2.62.1/fastlane_core/lib/fastlane_core/ui/fastlane_runner.rb:66:in `run!'&#10;/Users/qtec/.rvm/gems/ruby-2.4.0/gems/commander-fastlane-4.4.5/lib/commander/delegates.rb:15:in `run!'&#10;/Users/qtec/.rvm/gems/ruby-2.4.0@global/gems/fastlane-2.62.1/fastlane/lib/fastlane/commands_generator.rb:303:in `run'&#10;/Users/qtec/.rvm/gems/ruby-2.4.0@global/gems/fastlane-2.62.1/fastlane/lib/fastlane/commands_generator.rb:42:in `start'&#10;/Users/qtec/.rvm/gems/ruby-2.4.0@global/gems/fastlane-2.62.1/fastlane/lib/fastlane/cli_tools_distributor.rb:66:in `take_off'&#10;/Users/qtec/.rvm/gems/ruby-2.4.0@global/gems/fastlane-2.62.1/bin/fastlane:20:in `&lt;top (required)&gt;'&#10;/Users/qtec/.rvm/gems/ruby-2.4.0/bin/fastlane:23:in `load'&#10;/Users/qtec/.rvm/gems/ruby-2.4.0/bin/fastlane:23:in `&lt;main&gt;'&#10;/Users/qtec/.rvm/gems/ruby-2.4.0/bin/ruby_executable_hooks:15:in `eval'&#10;/Users/qtec/.rvm/gems/ruby-2.4.0/bin/ruby_executable_hooks:15:in `&lt;main&gt;'&#10;&#10;Exit status of command 'pod trunk push 'PHPJSip.podspec' --allow-warnings --use-libraries' was 1 instead of 0.&#10;Updating spec repo `master`&#10;Validating podspec&#10; -&gt; PHPJSip -&gt; PHPJSip (0.1.1)&#10;    - ERROR | [iOS] unknown: Encountered an unknown error ([!] /usr/bin/git clone https://github.com/xphaijj/pjsip.git /var/folders/ww/8smhj1yd33v159pqwrbc47_40000gp/T/d20171030-33125-r3f9e0 --template= --single-branch --depth 1 --branch 0.1.1&#10;&#10;Cloning into '/var/folders/ww/8smhj1yd33v159pqwrbc47_40000gp/T/d20171030-33125-r3f9e0'...&#10;warning: Could not find remote branch 0.1.1 to clone.&#10;fatal: Remote branch 0.1.1 not found in upstream origin&#10;) during validation.&#10;&#10;[!] The spec did not pass validation, due to 1 error.&#10;" />
         
       </testcase>
     
